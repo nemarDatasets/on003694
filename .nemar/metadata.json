@@ -1,0 +1,30 @@
+{
+  "version": "2.0",
+  "dataset_id": "on003694",
+  "source": "openneuro",
+  "source_id": "ds003694",
+  "title": "MEGMEM",
+  "authors": {
+    "Benjamin J. Griffiths": {},
+    "María Carmen Martín-Buro": {},
+    "Bernhard Staresina": {},
+    "Simon Hanslmayr": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds003694.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.0.2",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ]
+}
