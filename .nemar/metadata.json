@@ -1,30 +1,91 @@
 {
   "version": "2.0",
-  "dataset_id": "on003694",
-  "source": "openneuro",
-  "source_id": "ds003694",
+  "pipeline_stage": "enriched",
   "title": "MEGMEM",
-  "authors": {
-    "Benjamin J. Griffiths": {},
-    "María Carmen Martín-Buro": {},
-    "Bernhard Staresina": {},
-    "Simon Hanslmayr": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Benjamin J. Griffiths": {
+      "orcid": "0000-0001-8600-4480"
+    },
+    "María Carmen Martín-Buro": {
+      "orcid": "0000-0003-0578-2825"
+    },
+    "Bernhard Staresina": {
+      "orcid": "0000-0002-0558-9745"
+    },
+    "Simon Hanslmayr": {
+      "orcid": "0000-0003-4448-2147"
+    }
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003694.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003694",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003694",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1101/2020.01.22.915330",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "meg"
   ],
-  "datatypes": [
-    "meg"
-  ]
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fif",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "MEGMEM is a magnetoencephalography (MEG) dataset acquired to investigate memory-related neural dynamics during sleep and wakefulness. The dataset contains raw MEG recordings from multiple subjects performing memory encoding and retrieval tasks, designed to support research on the neural mechanisms underlying memory consolidation, memory reactivation, and their electrophysiological signatures including sleep spindles and slow oscillations.",
+  "keywords": [
+    {
+      "term": "Magnetoencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D015225"
+    },
+    {
+      "term": "memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+    },
+    {
+      "term": "neural oscillations",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009434"
+    },
+    {
+      "term": "sleep",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012890"
+    },
+    {
+      "term": "memory consolidation"
+    },
+    {
+      "term": "sleep spindles"
+    },
+    {
+      "term": "slow oscillations"
+    }
+  ],
+  "source_hash": "501e394e336881b5fa882aec81a67ed783569cde735934455e119fcc40d86e9d"
 }
