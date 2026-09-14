@@ -1,7 +1,7 @@
 1726a10a-eca1-411e-844d-f22226bd930c root@openneuro-prod-dataset-worker-0:/datasets/ds003694 timestamp=1623491315.450063531s
 3030fa59-2649-4445-aed4-29eca0e7ef1c yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-fleet-annex-policy-cMAxEb/on003694 timestamp=1789386482s
 9bfbba36-395d-4195-a8ac-af4f9f8b0caa s3-PRIVATE timestamp=1623653797.293116221s
-d889cfb9-f570-443c-abb9-64cc6c135cf0 yahya@yahyas-mcm:/private/var/folders/yh/v431j0015bq2_32ydhg5kvnm0000gn/T/nemar-key-registration-tMtXCj/on003694 timestamp=1789403232s
+d889cfb9-f570-443c-abb9-64cc6c135cf0 fleet-key-registration timestamp=1789403233s
 da1717a7-8857-4152-bcd0-58bb2b7b133b runner@runnervm7b5n9:/tmp/nemar-finalize-on003694-9LgouB/on003694-finalize timestamp=1782128188s
 ddb8c40d-1fd5-4141-a54e-a8d60ca74bb7 runner@runnervm7b5n9:/tmp/nemar-import-on003694-HMS3Ez/on003694 timestamp=1782127870s
 e1eaafac-d738-4355-932b-fd57141e4b04 nemar-s3 timestamp=1782127874s
