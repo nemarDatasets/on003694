@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "MEGMEM",
-  "description": "MEGMEM is a magnetoencephalography (MEG) dataset acquired during a memory task designed to investigate neural mechanisms of episodic memory encoding and retrieval. The dataset contains raw MEG recordings from multiple subjects performing controlled memory experiments, providing a resource for studying oscillatory dynamics and neural correlates of memory processes.",
+  "description": "MEGMEM is a magnetoencephalography (MEG) dataset of human episodic memory, released alongside a study of how neocortical alpha/beta and hippocampal theta/gamma activity contribute to memory. The dataset is organized in BIDS format and is mirrored on NEMAR from OpenNeuro (ds003694).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,26 +27,21 @@
       "term": "episodic memory"
     },
     {
-      "term": "memory encoding"
+      "term": "alpha/beta oscillations"
     },
     {
-      "term": "memory retrieval"
+      "term": "hippocampus"
     },
     {
-      "term": "oscillatory dynamics"
+      "term": "theta oscillations"
     },
     {
-      "term": "neural correlates"
+      "term": "gamma oscillations"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003694",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003694",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -59,6 +54,11 @@
       "identifier": "10.18112/openneuro.ds003694.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003694",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -67,7 +67,7 @@
     "meg"
   ],
   "sizes": [
-    "234.6 GB (133 files)"
+    "218 GB (133 files)"
   ],
   "formats": [
     ".fif",
